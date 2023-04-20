@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(169, 223, 215);
+    margin: 0;
+}
+.topo{
+    background-color: rgb(56, 170, 153);
+    height: 100px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+.topo ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+}
+.topo li{
+    list-style: none;
+}
+.topo li a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 35px;
+    display: flex;
+}
+.topo li a:hover{
+    text-decoration: underline;
+}
+.corpo{
+    background-color: rgb(169, 223, 215);
+    text-align: center;
+    min-height: 400px;
+}
+.rodape{
+    background-color: rgb(169, 223, 215);
+    height: 150px;
+    padding: 30px;
+    color: rgb(243, 246, 248);
+}
